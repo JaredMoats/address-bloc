@@ -69,4 +69,8 @@ module.exports = class MenuController {
       console.log(error);
     });
   }
-}
+
+  remindMe() {
+    return "Learning is a life-long pursuit";
+  }
+}//end of class
