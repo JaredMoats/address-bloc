@@ -32,6 +32,10 @@ module.exports = class MenuController {
     process.exit();
   }
 
+  getContactCount() {
+    return this.contacts.length;
+  }
+
   getDate() {
     let dateObject = new Date();
     let time= dateObject.getHours() + ":" + dateObject.getMinutes();
